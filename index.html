@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attraction</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/19ce154370.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <canvas id="world"></canvas>
+
+    <form action="" id="options">
+
+        <!-- Repulsion -->
+        <label for="repulsion"><i class="fas fa-arrows-alt-h"></i></label>
+        <input type="range" id="repulsion" value="500" min="50" max="1000">
+
+        <!-- Friction -->
+        <label for="friction"><i class="fas fa-compress-arrows-alt"></i></label>
+        <input type="range" id="friction" value=".95" min="0" max="1" step="0.01">
+
+        <!-- Dots color -->
+        <label for="dotsColor"><i class="fas fa-tint"></i></label>
+        <input type="color" id="dotsColor" value="#AA0000">
+
+        <!-- Dots rainbow -->
+        <label for="dotsRainbow"><i class="fas fa-rainbow"></i></label>
+        <input type="checkbox" id="dotsRainbow">
+
+
+    </form>
+
+    <script type="module" src="js/main.js"></script>
+
+</body>
+</html>

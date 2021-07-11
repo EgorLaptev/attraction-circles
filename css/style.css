@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+#world {
+    display: block;
+    overflow: hidden;
+    cursor: none;
+    background-color: #111;
+}
+
+#options {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+#options label {
+    padding: 0 10px;
+}
+
+#dotsColor,
+#dotsRainbow {
+    display: none;
+}
