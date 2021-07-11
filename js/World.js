@@ -3,8 +3,6 @@
 import Dot from './Dot.js';
 import Cursor from './Cursor.js';
 
-window.Dot = Dot;
-
 export default class World {
 
     static cnv = document.getElementById('world');
